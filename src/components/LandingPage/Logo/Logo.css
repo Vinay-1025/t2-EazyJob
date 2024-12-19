@@ -1,0 +1,36 @@
+.l-logo {
+    line-height: 1;
+}
+
+a {
+    color: var(--highlet);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--secondarydark);
+    text-decoration: none;
+}
+
+@media (min-width: 1200px){
+    .l-logo {
+        width: 200px;
+    }
+}
+
+.l-logo img {
+    max-height: 26px;
+    margin-top: 6px;
+}
+
+.l-logo span {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--primary);
+    font-family: "Nunito", sans-serif;
+}
+
+.l-logo span:hover {
+    color: var(--secondarydark);
+}

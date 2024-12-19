@@ -1,0 +1,26 @@
+.hero-section {
+    position: relative;
+    height: 96vh;
+    background: url('../../../assets/landing-bg.png');
+    background-size: contain;
+    background-position: center;
+    z-index: 0;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(4, 4, 4, 0.5);
+    z-index: 1;
+}
+
+@media (max-width: 1200px) {
+    .hero-section{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "cards": [
+        {
+            "_id": 1,
+            "name": "Payment",
+            "icon": "bi bi-cart",
+            "amount": 145,
+            "percentage": 6.12,
+            "action": true
+        },
+        {
+            "_id": 2,
+            "name": "Applications",
+            "icon": "bi bi-currency-dollar",
+            "amount": 15645,
+            "percentage": 6.12,
+            "action": false
+        },
+        {
+            "_id": 3,
+            "name": "Training",
+            "icon": "bi bi-people",
+            "amount": 565,
+            "percentage": -0.12,
+            "action": false
+        }
+    ],
+
+    "newusers" : [
+        {
+            "_id": 1,
+            "number": "#S191070",
+            "name": "Venky",
+            "domain": "FrontEnd",
+            "price": 34,
+            "status": "Paid"
+        },
+        {
+            "_id": 2,
+            "number": "#S190571",
+            "name": "Mohan",
+            "domain": "BackEnd",
+            "price": 489,
+            "status": "Pending"
+        },
+        {
+            "_id": 3,
+            "number": "#S191032",
+            "name": "Vinay Sriram",
+            "domain": "FrontEnd",
+            "price": 490,
+            "status": "Pending"
+        },
+        {
+            "_id": 4,
+            "number": "#S191041",
+            "name": "Srinivas",
+            "domain": "Data Scientist",
+            "price": 3904,
+            "status": "Paid"
+        },
+        {
+            "_id": 5,
+            "number": "#S191070",
+            "name": "Venky",
+            "domain": "FrontEnd",
+            "price": 34,
+            "status": "Paid"
+        },
+        {
+            "_id": 6,
+            "number": "#S190571",
+            "name": "Mohan",
+            "domain": "BackEnd",
+            "price": 489,
+            "status": "Pending"
+        },
+        {
+            "_id": 7,
+            "number": "#S191032",
+            "name": "Vinay Sriram",
+            "domain": "FrontEnd",
+            "price": 490,
+            "status": "Pending"
+        },
+        {
+            "_id": 8,
+            "number": "#S191041",
+            "name": "Srinivas",
+            "domain": "Data Scientist",
+            "price": 3904,
+            "status": "Paid"
+        }
+    ],
+    "activity": [
+        {
+            "_id": 1,
+            "time": "23 min",
+            "color": "text-danger",
+            "content": "Checked the Payments",
+            "highlight": ""
+        },
+        {
+            "_id": 2,
+            "time": "53 min",
+            "color": "text-warning",
+            "content": "Checked the Users",
+            "highlight": ""
+        },
+        {
+            "_id": 3,
+            "time": "2 hrs",
+            "color": "text-primary",
+            "content": "Checked the Dashboard",
+            "highlight": ""
+        },
+        {
+            "_id": 4,
+            "time": "1 day",
+            "color": "text-success",
+            "content": "Viewed Profile",
+            "highlight": ""
+        },
+        {
+            "_id": 5,
+            "time": "23 min",
+            "color": "text-info",
+            "content": "Checked the Payments",
+            "highlight": ""
+        },
+        {
+            "_id": 6,
+            "time": "53 min",
+            "color": "text-secondary",
+            "content": "Checked the Users",
+            "highlight": ""
+        },
+        {
+            "_id": 7,
+            "time": "2 hrs",
+            "color": "text-danger",
+            "content": "Checked the Dashboard",
+            "highlight": ""
+        },
+        {
+            "_id": 8,
+            "time": "1 day",
+            "color": "text-warning",
+            "content": "Viewed Profile",
+            "highlight": ""
+        },
+        {
+            "_id": 8,
+            "time": "1 day",
+            "color": "text-primary",
+            "content": "Viewed Profile",
+            "highlight": ""
+        },
+        {
+            "_id": 8,
+            "time": "1 day",
+            "color": "text-success",
+            "content": "Viewed Profile",
+            "highlight": ""
+        },
+        {
+            "_id": 8,
+            "time": "1 day",
+            "color": "text-info",
+            "content": "Viewed Profile",
+            "highlight": ""
+        },
+        {
+            "_id": 8,
+            "time": "1 day",
+            "color": "text-secondary",
+            "content": "Viewed Profile",
+            "highlight": ""
+        }
+    ]
+}

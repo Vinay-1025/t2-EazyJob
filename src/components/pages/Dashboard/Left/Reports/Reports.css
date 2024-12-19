@@ -1,0 +1,20 @@
+.chart-type-picker {
+    gap: 10px;
+}
+
+.chart-type-button {
+    background: #fff;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    font-weight: 550;
+    font-size: 12px;
+}
+
+@media (max-width: 800px) {
+    .chart-type-button {
+        font-size: 10px;
+    }
+}

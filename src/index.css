@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+    --primary: #212EA0;
+    --primarydark: #000080;
+    --secondary: #6100ED;
+    --highlet: #35F896;
+    --secondarydark: #491389;
+    --bgcolor: #ECDDFF;
+}
+
+body {
+    font-family: sans-serif;
+    color: #040404;
+    background: var(--bgcolor);
+}
+
+a {
+    color: var(--highlet);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--secondarydark);
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.header-body-wrapper {
+    margin-top: 75px;
+    padding: 0 20px;
+    transition: all 0.3s;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: 2px 8px 10px rgba(1,32,40,0.3);
+    width: 100%;
+}
+
+.card-title{
+    color: var(--primary) !important;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+    .card-title {
+        font-size: 18px;
+    }
+}

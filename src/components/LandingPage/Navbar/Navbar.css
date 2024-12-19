@@ -1,0 +1,21 @@
+.l-header {
+    transition: all 0.5s;
+    z-index: 997;
+    height: 60px;
+    background-color: #212EA0;
+    color: #fff;
+    padding-left: 28px;
+}
+
+.l-header .toggle-sidebar-btn {
+    font-size: 32px;
+    padding-left: 10px;
+    cursor: pointer;
+    color: var(--primarydark);
+}
+
+@media (max-width: 800px) {
+    .l-header {
+        height: 40px;
+    }
+}

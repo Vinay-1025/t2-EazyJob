@@ -1,0 +1,21 @@
+.header {
+    transition: all 0.5s;
+    z-index: 997;
+    height: 60px;
+    box-shadow: 8px 2px 28px rgba(1,41,112,0.4);
+    background-color: #fff;
+    padding-left: 28px;
+}
+
+.header .toggle-sidebar-btn {
+    font-size: 32px;
+    padding-left: 10px;
+    cursor: pointer;
+    color: var(--primarydark);
+}
+
+@media (max-width: 800px) {
+    .header {
+        height: 40px;
+    }
+}
