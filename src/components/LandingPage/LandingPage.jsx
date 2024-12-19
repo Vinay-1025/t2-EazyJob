@@ -5,6 +5,7 @@ import Hero from './Hero/Hero'
 import About from './About/About'
 import Services from './Services/Services'
 import Details from './Details/Details'
+import Support from './Support/Support'
 
 const LandingPage = () => {
 
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <Hero />
       <About />
       <Services />
+      <Support />
       <Details />
     </div>
   )
