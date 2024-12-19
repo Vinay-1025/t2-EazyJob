@@ -1,0 +1,87 @@
+.details-cont {
+    margin: 20px 0;
+    position: relative;
+    height: 100vh;
+    background: url('../../../assets/faces.png') center center/cover; /* Ensure the background is centered */
+}
+
+.details-cont::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.d-cont {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.details-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.d-desc {
+    color: var(--secondary);
+    margin: 40px 300px;
+    text-align: center;
+}
+
+.details-butn {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #fff;
+    background: var(--secondary);
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: 550;
+    transition: all 0.3s;
+}
+
+.details-butn:hover {
+    color: var(--secondary);
+    background-color: var(--highlet);
+}
+
+@media (max-width: 1040px){
+    .d-desc {
+        margin: 50px 150px;
+    }
+}
+
+@media (max-width: 750px) {
+    .d-desc {
+        margin: 50px 80px;
+        font-size: 15px;
+    }
+
+    .d-title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .d-title {
+        font-size: 14px;
+    }
+
+    .d-desc {
+        margin: 20px 40px;
+        font-size: 12px;
+    }
+}
