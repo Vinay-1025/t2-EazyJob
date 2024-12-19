@@ -1,0 +1,37 @@
+.title-sub {
+    padding: 50px 0;
+}
+
+.title-titlesub {
+    text-transform: uppercase;
+    color: var(--primarydark);
+    font-weight: 550;
+    margin-bottom: 15px;
+}
+
+.sub-titlesub {
+    color: var(--secondary);
+    font-weight: 550;
+    text-transform: capitalize;
+    font-size: 22px;
+    width: 70%;
+    text-align: justify;
+}
+
+@media (max-width: 990px) {
+    .sub-titlesub {
+        font-size: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .sub-titlesub {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .title-titlesub {
+        font-size: 12px;
+    }
+}

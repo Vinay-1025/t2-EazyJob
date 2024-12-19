@@ -5,16 +5,16 @@ const ReportCharts = ({ chartType }) => {
     const [data, setData] = useState({
         series: [
             {
-                name: 'sales',
-                data: [31, 40, 28, 51, 42, 82, 56],
+                name: 'Jobs',
+                data: [31, 40, 28, 51, 42, 82, 56,89],
             },
             {
                 name: 'Revenue',
-                data: [11, 32, 45, 32, 34, 52, 41],
+                data: [11, 32, 45, 32, 34, 52, 41,65],
             },
             {
-                name: 'Customers',
-                data: [15, 11, 32, 18, 9, 24, 11],
+                name: 'Users',
+                data: [15, 11, 32, 18, 9, 24, 11,128],
             },
         ],
         options: {
@@ -65,6 +65,7 @@ const ReportCharts = ({ chartType }) => {
                     '2024-12-01T15:50:00Z',
                     '2024-12-01T18:00:00Z',
                     '2024-12-01T20:00:00Z',
+                    '2024-12-01T23:59:00Z',
                 ],
             },
             tooltip: {

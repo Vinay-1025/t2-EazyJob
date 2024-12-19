@@ -20,3 +20,10 @@
     background: #000080;
     border: 1px solid #fff;
 }
+
+@media (max-width: 800px) {
+    .login-butn {
+        font-size: 15px;
+        padding: 2px 15px;
+    }
+}

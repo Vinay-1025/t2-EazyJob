@@ -1,0 +1,35 @@
+.service-data {
+    padding: 20px 0;
+}
+
+.data-text {
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.service-butn {
+    text-align: center;
+    padding: 10px;
+    background: var(--highlet);
+    border-radius: 30px;
+    color: var(--secondary);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.service-butn:hover {
+    color: #fff;
+    background: var(--secondary);
+}
+
+@media (max-width: 800px)
+{
+    .data-text {
+        font-size: 12px;
+    }
+
+    .service-butn {
+        font-size: 15px;
+        margin: 0 30px;
+    }
+}

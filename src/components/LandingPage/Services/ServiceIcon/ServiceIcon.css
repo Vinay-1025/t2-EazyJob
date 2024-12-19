@@ -1,0 +1,48 @@
+.service-icon {
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s;
+}
+
+.ser-icon {
+    font-size: 30px;
+    padding: 10px 20px;
+    background: #c4caff;
+    color: var(--secondarydark);
+    border-radius: 10px;
+}
+
+.ser-name {
+    font-size: 20px;
+    color: var(--primary);
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.ser-desc {
+    padding: 0 20px;
+    font-size: 15px;
+    color: #000;
+}
+
+.service-icon:hover {
+    transform: translateY(-20px);
+}
+
+@media (max-width: 768px) {
+    .service-icon{
+        margin: 20px 0;
+    }
+    
+    .ser-name {
+        font-size: 18px;
+    }
+
+    .ser-desc {
+        font-size: 12px;
+    }
+}

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Card from '../Left/Card/Card';
+import Card from '../Card/Card';
 import Reports from '../Reports/Reports';
 
 const Chart = () => {
