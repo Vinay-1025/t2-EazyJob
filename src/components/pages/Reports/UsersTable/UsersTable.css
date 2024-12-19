@@ -1,0 +1,105 @@
+.no-wrap {
+    white-space: nowrap;
+}
+
+/* UsersTable.css */
+.pagination {
+    display: flex;
+    justify-content: space-between; /* Space out left and right sections */
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pagination-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagination-left select {
+    padding: 5px;
+}
+
+.pagination-left span {
+    font-size: 14px;
+}
+
+.pagination-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagination-right button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pagination-right button:disabled {
+    cursor: not-allowed;
+}
+
+.pagination-right span {
+    font-size: 14px;
+}
+
+.pagi-dropdown {
+    outline: none;
+    border-radius: 15px;
+    border-color: var(--secondarydark);
+    color: #fff;
+    background: var(--secondary);
+    cursor: pointer;
+}
+
+.pagi-dropdown:hover {
+    border-color: var(--primarydark);
+    background: var(--primary);
+}
+
+.pagi-desc {
+    color: var(--secondary);
+    font-size: 12px;
+}
+
+.usertable-mail{
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    color: var(--primarydark);
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.usertable-mail:hover {
+    background: var(--secondary);
+    border: 1px solid var(--secondary);
+    color: #fff;
+}
+
+th {
+    color: var(--primary) !important;
+    font-size: 15px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+td {
+    font-size: 14px;
+}
+
+.filters {
+    padding: 10px 0;
+}
+
+.filter-dropdown {
+    outline: none;
+    border: 1px solid var(--secondary);
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 15px;
+    color: var(--primary);
+    border-radius: 3px;
+    cursor: pointer;
+}

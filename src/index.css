@@ -57,8 +57,44 @@ h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
 }
 
+
+/* Pagination CSS Start */
+
+.pagi-butn {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 550;
+    color: var(--secondarydark);
+    border: 1px solid var(--secondarydark);
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.pagi-butn:hover {
+    color: #fff;
+    background: var(--secondarydark);
+    border: 1px solid var(--secondarydark);
+}
+
+.num-butn {
+    padding: 1px 8px;
+    border-radius: 8px;
+    color: var(--secondary);
+    font-size: 12px;
+    font-weight: 550;
+    border: 2px solid var(--secondary);
+}
+
+.num-butn.active {
+    background: var(--secondary);
+    color: #fff;
+}
+
+/* Pagination CSS End */
+
 @media (max-width: 800px) {
     .card-title {
         font-size: 18px;
     }
 }
+

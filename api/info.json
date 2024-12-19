@@ -3,7 +3,7 @@
         {
             "_id": 1,
             "name": "Payment",
-            "icon": "bi bi-cart",
+            "icon": "bi bi-currency-rupee",
             "amount": 145,
             "percentage": 6.12,
             "action": true
@@ -11,7 +11,7 @@
         {
             "_id": 2,
             "name": "Applications",
-            "icon": "bi bi-currency-dollar",
+            "icon": "bi bi-file-bar-graph",
             "amount": 15645,
             "percentage": 6.12,
             "action": false
@@ -176,6 +176,408 @@
             "color": "text-secondary",
             "content": "Viewed Profile",
             "highlight": ""
+        }
+    ],
+    "newuser": [
+        {
+            "_id": 1,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 2,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Backend Developer",
+            "Status": "Inactive",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 3,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Devops",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 4,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Backend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 5,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 6,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "UI/UX",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 7,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 8,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 9,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 10,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 11,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 12,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Fullstack",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 13,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 14,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 15,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 16,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 17,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 18,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 19,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 20,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 21,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 22,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 23,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 24,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 25,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 26,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 27,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 28,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 29,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 30,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 31,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 32,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 33,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 34,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 35,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 36,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 37,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 38,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 39,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 40,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 41,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 42,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 43,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 44,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 45,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 46,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 47,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 48,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 49,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
+        },
+        {
+            "_id": 50,
+            "name": "G Vinay Sriram",
+            "email": "vinaysriramgavara9@gmail.com",
+            "role": "Frontend Developer",
+            "Status": "Active",
+            "joined_date": "19-Dec-2024"
         }
     ]
 }

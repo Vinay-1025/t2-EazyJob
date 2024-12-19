@@ -1,4 +1,5 @@
 import React from 'react'
+import './Services.css'
 import TitleSub from '../TitleSub/TitleSub'
 import ServiceData from './ServiceData/ServiceData';
 import ServiceIcon from './ServiceIcon/ServiceIcon';
@@ -14,6 +15,17 @@ const Services = () => {
     };
     
     const serviceIcon2 = {
+        icon: <BiRecycle />,
+        name: 'Recycle',
+        desc: 'Porta si euismod dignissim a iaculis habitant penatibus laoreet mus congue at sodales ipsum pharetra potenti'
+    };
+    const serviceIcon3 = {
+        icon: <BiCamera />,
+        name: 'Camera',
+        desc: 'Porta si euismod dignissim a iaculis habitant penatibus laoreet mus congue at sodales ipsum pharetra potenti'
+    };
+    
+    const serviceIcon4 = {
         icon: <BiRecycle />,
         name: 'Recycle',
         desc: 'Porta si euismod dignissim a iaculis habitant penatibus laoreet mus congue at sodales ipsum pharetra potenti'
@@ -36,6 +48,14 @@ const Services = () => {
                         </div>
                         <div className="col-md-6">
                             <ServiceIcon serviceIcon={serviceIcon2} />
+                        </div>
+                    </div>
+                    <div className="row new-row">
+                        <div className="col-md-6">
+                            <ServiceIcon serviceIcon={serviceIcon3} />
+                        </div>
+                        <div className="col-md-6">
+                            <ServiceIcon serviceIcon={serviceIcon4} />
                         </div>
                     </div>
                 </div>
