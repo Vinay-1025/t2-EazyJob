@@ -1,21 +1,150 @@
-.l-header {
-    transition: all 0.5s;
-    z-index: 997;
-    height: 60px;
-    background-color: #212EA0;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: transparent;
+}
+
+.navbar.scrolled {
+    background: linear-gradient(to right, #212ea0d6 , #481389d6);
+    padding: 5px 20px;
+}
+
+.navbar-logo h1 {
+    margin-top: 30px ;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 550;
+    color: white;
+    text-transform: uppercase;
+    transition: font-size 0.3s ease;
+}
+
+.navbar-logo .scrolled-logo {
+    font-size: 22px;
+    margin: 0;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desktop-nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.desktop-nav-links li {
+    margin: 0 15px;
+    margin-top: 12px;
+}
+
+.desktop-nav-links li a {
+    text-decoration: none;
     color: #fff;
-    padding-left: 28px;
+    font-size: 16px;
+    font-weight: 550;
+    transition: color 0.3s ease;
 }
 
-.l-header .toggle-sidebar-btn {
-    font-size: 32px;
-    padding-left: 10px;
+.desktop-nav-links li a:hover {
+    color: #007bff;
+}
+
+.login-button {
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    background-color: #d4e9ff;
+    border: none;
+    color: var(--primary);
     cursor: pointer;
-    color: var(--primarydark);
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
 }
 
-@media (max-width: 800px) {
-    .l-header {
-        height: 40px;
+.login-button:hover {
+    background: linear-gradient(to right, var(--primary), var(--secondary));
+    color: #fff;
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-menu button {
+    margin: 0 10px;
+}
+
+.mobile-nav-links {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #212ea0d6, #481389d6);
+    padding: 10px;
+    text-align: center;
+}
+
+.mobile-nav-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mobile-nav-links ul li {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.mobile-nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-icon {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .login-button {
+        padding: 8px 16px;
+        background-color: #d4e9ff;
+        border: none;
+        color: var(--primary);
+        cursor: pointer;
+        font-size: 15px;
     }
 }

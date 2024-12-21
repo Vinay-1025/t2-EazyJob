@@ -1,0 +1,41 @@
+.contactus-fixed {
+    position: fixed;
+    bottom: 120px;
+    right: 30px;
+    background: linear-gradient(to right, #06138c, #d503e4);
+    padding: 15px;
+    border-radius: 30px;
+    color: #d8cdfa;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 5px 30px #000;
+    background-size: 200% 200%;
+    animation: rotateGradient 5s linear infinite;
+}
+
+.contactus-fixed:hover {
+    color: #fff;
+}
+
+@keyframes rotateGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .contactus-fixed {
+        font-size: 18px;
+    }
+}
+

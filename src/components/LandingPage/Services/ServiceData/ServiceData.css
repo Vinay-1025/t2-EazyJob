@@ -10,16 +10,17 @@
 .service-butn {
     text-align: center;
     padding: 10px;
-    background: var(--highlet);
+    background: linear-gradient(to right, var(--primary), var(--secondary));
     border-radius: 30px;
-    color: var(--secondary);
+    color: #e4eeff;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 .service-butn:hover {
     color: #fff;
-    background: var(--secondary);
+    background: linear-gradient(to right, var(--secondarydark), var(--primarydark));
+    box-shadow: 0 5px 20px var(--primary);
 }
 
 @media (max-width: 800px)

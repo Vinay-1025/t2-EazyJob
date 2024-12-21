@@ -18,6 +18,10 @@
     text-align: justify;
 }
 
+.quote-mark {
+    font-size: 30px;
+}
+
 @media (max-width: 990px) {
     .sub-titlesub {
         font-size: 20px;

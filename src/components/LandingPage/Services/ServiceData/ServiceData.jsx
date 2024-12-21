@@ -44,6 +44,10 @@ const ServiceData = () => {
                 initial={{ scale: 0 }}
                 animate={{ scale: inView ? 1 : 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
+                whileTap={{
+                    scale: 0.9,
+                    transition: { duration: 0.2 }
+                }}
             >
                 Check Now!
             </motion.div>

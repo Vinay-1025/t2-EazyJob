@@ -42,7 +42,7 @@ const ServiceIcon = ({ serviceIcon }) => {
                 rotateX: 8,
                 rotateY: 8,
                 cursor: "pointer",
-                transition: { duration: 0.3 }
+                transition: { duration: 0.3 },
             }}
             whileTap={{
                 scale: 0.95,

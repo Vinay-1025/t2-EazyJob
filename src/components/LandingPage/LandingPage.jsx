@@ -6,6 +6,7 @@ import Services from './Services/Services';
 import Support from './Support/Support';
 import Details from './Details/Details';
 import ScrollTop from './ScrollTop/ScrollTop';
+import ContactUs from './ContactUs/ContactUs';
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -40,6 +41,7 @@ const LandingPage = () => {
       <Support />
       <Details />
       {showScrollTop && <ScrollTop />}
+      {showScrollTop && <ContactUs />}
     </div>
   );
 };

@@ -28,7 +28,7 @@ const Support = () => {
 
     return (
         <div className='container'>
-            <TitleSub title="How do we support" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation." />
+            <TitleSub title="How do we support" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud." />
             <div className="row">
                 <div className="col-md-6">
                     <img src={Image} alt="support" style={{ width: '100%', transform: 'scaleX(-1)' }} />

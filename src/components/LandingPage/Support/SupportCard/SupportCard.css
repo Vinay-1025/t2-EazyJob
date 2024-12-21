@@ -4,6 +4,7 @@
     margin: 10px 10px;
     border: 1px solid var(--primarydark);
     border-radius: 8px;
+    transition: all 0.5s;
 }
 
 .card-name {
@@ -19,7 +20,7 @@
 }
 
 .support-card:hover {
-    background: var(--secondary);
+    background: linear-gradient(to right, #06138c, #d503e4);
     .card-name {
         color: #fff;
     }
