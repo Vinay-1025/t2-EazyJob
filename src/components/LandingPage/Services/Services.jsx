@@ -41,7 +41,7 @@ const Services = () => {
                 <div className="col-md-4">
                     <ServiceData />
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-8 ">
                     <div className="row">
                         <div className="col-md-6">
                             <ServiceIcon serviceIcon={serviceIcon1} />

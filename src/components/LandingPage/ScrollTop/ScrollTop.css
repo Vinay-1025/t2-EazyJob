@@ -1,0 +1,41 @@
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    background: linear-gradient(to right, #06138c, #d503e4);
+    padding: 15px;
+    border-radius: 30px;
+    color: #d8cdfa;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 5px 30px #000;
+    background-size: 200% 200%;
+    animation: rotateGradient 5s linear infinite;
+}
+
+.scroll-top:hover {
+    color: #fff;
+}
+
+@keyframes rotateGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .scroll-top {
+        font-size: 18px;
+    }
+}
+
