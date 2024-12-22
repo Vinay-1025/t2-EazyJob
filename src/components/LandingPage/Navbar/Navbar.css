@@ -55,14 +55,14 @@ body {
 
 .desktop-nav-links li a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff9e;
     font-size: 16px;
     font-weight: 550;
     transition: color 0.3s ease;
 }
 
 .desktop-nav-links li a:hover {
-    color: #007bff;
+    color: #fff;
 }
 
 .login-button {
@@ -121,7 +121,11 @@ body {
     font-weight: 500;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+    .navbar-logo h1 {
+        font-size: 28px;
+    }
+
     .navbar-links {
         display: none;
     }
@@ -146,5 +150,12 @@ body {
         color: var(--primary);
         cursor: pointer;
         font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-logo h1 {
+        font-size: 24px;
+        margin: 0;
     }
 }
