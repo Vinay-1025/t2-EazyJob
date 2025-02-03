@@ -1,6 +1,6 @@
 .hero-section {
     position: relative;
-    height: 96vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     transition: background-image 1s ease-in-out;
@@ -55,13 +55,26 @@
 }
 
 .hero-title {
-    font-size: 60px;
+    font-size: 50px;
     text-transform: capitalize;
     color: #fff;
     font-weight: 600;
     z-index: 1;
     position: relative;
     margin-top: 80px;
+}
+
+.hero-motiv {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    font-size: 13px;
+}
+
+.hero-intro {
+    color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-desc {

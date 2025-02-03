@@ -24,7 +24,7 @@
     0% {
         background-position: 0% 50%;
     }
-    50%{
+    50% {
         background-position: 100% 50%;
     }
     100% {
@@ -32,10 +32,77 @@
     }
 }
 
-
-@media (max-width: 800px) {
-    .contactus-fixed {
-        font-size: 18px;
-    }
+.contactus-form-container {
+    position: fixed;
+    bottom: 200px;
+    right: 30px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    max-width: 90%;
+    z-index: 1000;
 }
 
+.contactus-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contactus-form-header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.close-button {
+    cursor: pointer;
+    font-size: 20px;
+    color: #06138c;
+}
+
+.contactus-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus-form input,
+.contactus-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contactus-form button {
+    background: #06138c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus-form button:hover {
+    background: #d503e4;
+}
+
+.contactus-form button svg {
+    margin-right: 5px;
+}
+
+@media (max-width: 800px) {
+
+    .contactus-form-container {
+        width: 80%;
+        bottom: 150px;
+    }
+}

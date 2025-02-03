@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DE+VA+Guides&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    text-align: justify;
+    font-family: 'Afacad Flux', serif;
 }
 
 :root {
     scroll-behavior: smooth;
-    --primary: #212EA0;
+    --primary: #212ea0;
     --primarydark: #000080;
     --secondary: #6100ED;
     --highlet: #35F896;
@@ -17,7 +21,6 @@
 }
 
 body {
-    font-family: sans-serif;
     color: #040404;
     background: var(--bgcolor);
 }

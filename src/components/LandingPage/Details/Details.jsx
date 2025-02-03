@@ -30,7 +30,7 @@ const Details = () => {
     }, []);
 
     return (
-        <div className='details-cont'>
+        <div className='details-cont' id='stat'>
             <div className='d-cont d-flex align-items-center justify-content-center'>
                 <motion.div
                     ref={sectionRef}

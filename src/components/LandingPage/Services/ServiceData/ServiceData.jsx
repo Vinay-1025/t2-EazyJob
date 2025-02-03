@@ -37,8 +37,8 @@ const ServiceData = () => {
                 animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
                 transition={{ duration: 1, ease: 'easeOut' }}
             >
-                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-            </motion.div>
+                Our platform connects you with experts, offers personalized courses, and builds a collaborative community. With EduAssist, you get instant access to the tools and guidance to succeed in your studies and career.
+        </motion.div>
             <motion.div
                 className="service-butn"
                 initial={{ scale: 0 }}

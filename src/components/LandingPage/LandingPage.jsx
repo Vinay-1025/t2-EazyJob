@@ -7,15 +7,14 @@ import Support from './Support/Support';
 import Details from './Details/Details';
 import ScrollTop from './ScrollTop/ScrollTop';
 import ContactUs from './ContactUs/ContactUs';
+import Accordion from './Accordion/Accordion';
+import Testimonials from './Testimonials/Testimonials';
 
 const LandingPage = () => {
   const navigate = useNavigate();
-
-  // State to track if the user has scrolled 30px
   const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
-    // Function to handle the scroll event
     const handleScroll = () => {
       if (window.scrollY > 500) {
         setShowScrollTop(true);
@@ -24,10 +23,8 @@ const LandingPage = () => {
       }
     };
 
-    // Listen to the scroll event
     window.addEventListener('scroll', handleScroll);
 
-    // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -40,6 +37,7 @@ const LandingPage = () => {
       <Services />
       <Support />
       <Details />
+      <Testimonials />
       {showScrollTop && <ScrollTop />}
       {showScrollTop && <ContactUs />}
     </div>

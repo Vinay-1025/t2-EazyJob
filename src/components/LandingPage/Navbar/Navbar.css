@@ -40,6 +40,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .desktop-nav-links {
@@ -75,6 +76,8 @@ body {
     font-size: 15px;
     font-weight: 550;
     border-radius: 30px;
+    position: relative;
+    bottom: 11px;
     transition: background-color 0.3s ease;
 }
 
@@ -96,7 +99,7 @@ body {
 
 .mobile-nav-links {
     position: absolute;
-    top: 55px;
+    top: 75px;
     left: 0;
     width: 100%;
     background: linear-gradient(to right, #212ea0d6, #481389d6);
@@ -136,11 +139,13 @@ body {
     }
 
     .menu-icon {
-        background: none;
+        background: none !important;
         border: none;
         color: white;
         font-size: 30px;
         cursor: pointer;
+        position: relative;
+        z-index: 9999;
     }
 
     .login-button {
@@ -150,6 +155,7 @@ body {
         color: var(--primary);
         cursor: pointer;
         font-size: 15px;
+        top: 0px;
     }
 }
 
@@ -158,4 +164,11 @@ body {
         font-size: 24px;
         margin: 0;
     }
+}
+
+/* Highlighted link style */
+.active-link {
+    color: #ff5722; /* Highlight color */
+    font-weight: bold;
+    border-bottom: 2px solid #ff5722; /* Optional underline */
 }

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { RiMenu4Line, RiCloseLine } from 'react-icons/ri';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -30,26 +31,33 @@ const Navbar = () => {
         };
     }, []);
 
+    const navigate = useNavigate();
+    const handleLogin = () => {
+        navigate('/registration');
+    }
+
     return (
         <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
             <div className="navbar-logo">
-                <h1 className={`logo-name ${isScrolled ? 'scrolled-logo' : ''}`}>Logo Name</h1>
+                <h1 className={`logo-name ${isScrolled ? 'scrolled-logo' : ''}`}>Edu Assist</h1>
             </div>
 
             {/* Desktop Links */}
             <div className="navbar-links">
                 <ul className="desktop-nav-links">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#support">Support</a></li>
+                    <li><a href="#stat">Statistics</a></li>
+                    <li><a href="#testi">Testimonials</a></li>
+                
                 </ul>
-                <button className="login-button">Login</button>
+                <button className="login-button" onClick={handleLogin}>Login</button>
             </div>
 
             {/* Mobile Menu */}
             <div className="mobile-menu">
-                <button className="login-button">Login</button>
+                <button className="login-button" onClick={handleLogin}>Login</button>
                 <button className="menu-icon" onClick={toggleMenu}>
                     {isMobileMenuOpen ? <RiCloseLine /> : <RiMenu4Line />}
                 </button>
@@ -73,13 +81,16 @@ const Navbar = () => {
                             <a href="#home" onClick={closeMenu}>Home</a>
                         </motion.li>
                         <motion.li whileHover={{ scale: 1.1 }} transition={{ duration: 0.2 }}>
-                            <a href="#about" onClick={closeMenu}>About</a>
-                        </motion.li>
-                        <motion.li whileHover={{ scale: 1.1 }} transition={{ duration: 0.2 }}>
                             <a href="#services" onClick={closeMenu}>Services</a>
                         </motion.li>
                         <motion.li whileHover={{ scale: 1.1 }} transition={{ duration: 0.2 }}>
-                            <a href="#contact" onClick={closeMenu}>Contact</a>
+                            <a href="#support" onClick={closeMenu}>Support</a>
+                        </motion.li>
+                        <motion.li whileHover={{ scale: 1.1 }} transition={{ duration: 0.2 }}>
+                            <a href="#stat" onClick={closeMenu}>Statistics</a>
+                        </motion.li>
+                        <motion.li whileHover={{ scale: 1.1 }} transition={{ duration: 0.2 }}>
+                            <a href="#testi" onClick={closeMenu}>Testimonials</a>
                         </motion.li>
                     </motion.ul>
                 </motion.div>

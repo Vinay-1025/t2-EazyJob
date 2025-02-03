@@ -10,32 +10,32 @@ const Services = () => {
 
     const serviceIcon1 = {
         icon: <BiCamera />,
-        name: 'Camera',
-        desc: 'Porta si euismod dignissim a iaculis habitant penatibus laoreet mus congue at sodales ipsum pharetra potenti'
+        name: 'Instant Doubt Clarification',
+        desc: 'Get real-time solutions to your questions from experts and AI-powered tools. Whether it’s a tricky math problem, a coding bug, or a conceptual doubt, EduAssist ensures quick and accurate responses to keep your learning uninterrupted.'
     };
     
     const serviceIcon2 = {
         icon: <BiRecycle />,
-        name: 'Recycle',
-        desc: 'Porta si euismod dignissim a iaculis habitant penatibus laoreet mus congue at sodales ipsum pharetra potenti'
+        name: 'Personalized Learning Paths',
+        desc: 'Explore courses designed to fit your unique learning style, pace, and goals. Our tailored modules ensure you focus on what matters most to you, providing a clear roadmap for skill-building and academic success.'
     };
     const serviceIcon3 = {
         icon: <BiCamera />,
-        name: 'Camera',
-        desc: 'Porta si euismod dignissim a iaculis habitant penatibus laoreet mus congue at sodales ipsum pharetra potenti'
+        name: 'Expert Guidance',
+        desc: 'Connect with experienced educators and industry professionals who provide personalized mentorship and advice. Learn directly from experts who understand your challenges and can guide you toward achieving your goals.'
     };
     
     const serviceIcon4 = {
         icon: <BiRecycle />,
-        name: 'Recycle',
-        desc: 'Porta si euismod dignissim a iaculis habitant penatibus laoreet mus congue at sodales ipsum pharetra potenti'
+        name: 'Interactive Learning Resources',
+        desc: 'Engage with dynamic quizzes, practical assignments, and immersive simulations to deepen your understanding. These hands-on resources ensure you can apply what you learn effectively in real-world scenarios.'
     };
 
 
-    const subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.";
+    const subtitle = "At EduAssist, we make learning easier by providing the support and resources you need. Whether you're tackling tough topics, preparing for exams, or learning new skills, we're here to help.";
 
     return (
-        <div className="container">
+        <div className="container" id="services">
             <TitleSub title="What can we do for you" subtitle={subtitle} />
             <div className='row'>
                 <div className="col-md-4">
